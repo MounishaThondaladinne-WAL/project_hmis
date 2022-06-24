@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+}
+.header {
+  background-color: #2e7d32;
+  width: 100%;
+  // position: fixed;
+  height: 70px;
+  .cypress-logo {
+    padding: 10px 0px 10px 30px;
+  }
+  ul {
+    list-style: none;
+    float: right;
+  }
+  li {
+    font-weight: 600;
+    font-size: 14px;
+    border-right: 1px solid #f3f3f3;
+    padding: 0 24px;
+    color: white;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 28px;
+    height: 28px;
+  }
+  .user-info {
+    border: none;
+  }
+}
